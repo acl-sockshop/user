@@ -4,8 +4,12 @@ kind: Deployment
 metadata:
   name: user
   namespace: dev
+  labels:
+    name: user
 spec:
   replicas: 1
+  matchLabels:
+    name: user
   template:
     metadata:
       labels:
