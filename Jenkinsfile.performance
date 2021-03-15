@@ -1,4 +1,4 @@
-@Library('dynatrace@master') _
+@Library('dynatrace@v1.0') _
 
 def tagMatchRules = [
   [
